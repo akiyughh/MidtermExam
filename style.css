@@ -124,7 +124,7 @@
 }
 
 .beginning p {
-    font-size: 18px; /* Adjust font size as needed */
+    font-size: 15px; /* Adjust font size as needed */
     color: #ece9e9; /* Adjust color as needed */
     font-family: 'Roboto Slab', serif; 
     margin-top: 10px; /* Add some space at the top */
@@ -133,7 +133,7 @@
 
 .beginning h1 {
     font-weight: bold;
-    font-size: 80px; /* Adjust the font size as needed */
+    font-size: 50px; /* Adjust the font size as needed */
     font-family: 'Roboto Slab', serif; 
     color: #f3f3f3; /* Adjust the color as needed */
     text-transform: uppercase; /* Convert text to uppercase */
