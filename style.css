@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* navigation bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+    width: 100%;
+    z-index: 2; /* Ensure the navbar is above the background image */
+}
+
+/* Apply background image to header */
+.navbar::before {
+    position: fixed;
+    content: "";
+    position: absolute;
+    background-image: url('pic11.png'); /* Background image for the header */
+    background-size: cover; /* Cover the entire header area */
+    background-position: center; /* Center the background image */
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    width: 100%; /* Use the full width */
+    justify-content: space-around; /* Space items evenly, including space at the edges */
+}
+.navbar ul li {
+    font-size: 1.1rem;
+}
+.navbar ul li a {
+	padding: 5px 20px;
+	text-decoration: none;
+	color: white;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.navbar ul li a:hover {
+    border: 2px solid #C4C4C4;
+	border-radius: 10px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Footer */
+.footer-fixed {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-image: url('pic11.png'); /* Path to your image */
+    background-size: cover; /* Cover the entire footer area */
+    background-position: center; /* Center the background image */
+    height: 70px; /* Adjusted height */
+    display: flex;
+    justify-content: center; /* Center the footer content horizontally */
+    align-items: center; /* Center the footer content vertically */
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+
+.footer-fixed1 {
+    bottom: 0;
+    width: 100%;
+    background-image: url('pic11.png'); /* Path to your image */
+    background-size: cover; /* Cover the entire footer area */
+    background-position: center; /* Center the background image */
+    height: 110px; /* Adjusted height */
+    display: flex;
+    justify-content: center; /* Center the footer content horizontally */
+    align-items: center; /* Center the footer content vertically */
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+
+.footp {
+    color: #FFFFFF;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center; /* Align content vertically */
+}
+
+.footer-info {
+    margin-right: 0px; /* Add margin to separate logo and text */
+    text-align: center; /* Align text to the left */
+    color: #FFFFFF; /* Text color */
+}
+
+.footer-info p {
+    margin: 0; /* Remove default margin */
+}
+
+.footer-info p a {
+    color: #ffffff; /* Link color */
+    text-decoration: underline;
+}
+/* Home */
+#starter {
+    position: fixed;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    min-height: calc(100vh - 100px); /* Adjust 100px to the height of your footer */
+    width: 100%;
+    background-image: url("ex5.5.5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.beginning {
+	padding: 65px 100px;
+    text-align: center;
+}
+
+.beginning p {
+    font-size: 18px; /* Adjust font size as needed */
+    color: #ece9e9; /* Adjust color as needed */
+    font-family: 'Roboto Slab', serif; 
+    margin-top: 10px; /* Add some space at the top */
+    opacity: 0.8; /* Optional: make the text slightly transparent for a subtle effect */
+}
+
+.beginning h1 {
+    font-weight: bold;
+    font-size: 80px; /* Adjust the font size as needed */
+    font-family: 'Roboto Slab', serif; 
+    color: #f3f3f3; /* Adjust the color as needed */
+    text-transform: uppercase; /* Convert text to uppercase */
+    margin-top: 120px; /* Add some space at the top */
+}
+
+/* CSS for About page */
+body {
+    background-color: #7A9EB8; /* Set the background color */
+}
+
+.about-content {
+    margin-top: 60px;
+    font-family: 'Roboto Slab', serif; 
+    margin-bottom: 200px;
+}
+
+.about-content h1 {
+    margin-bottom: 20px; /* Add some space between title and description */
+    font-size: 50px;
+}
+
+.about-content p {
+    font-size: 20px; /* Set font size */
+    line-height: 1.5; /* Set line height */
+}
+
+/* Container for Background Image */
+.favdiv {
+    background-image: url('pic3.3.png'); /* Path to your image */
+    background-size: cover; /* Set background size to cover the entire container */
+    background-position: right bottom; /* Position the image to the right bottom */
+    height: 400px;
+    border: 4px solid #ccc;
+    border-radius: 5%;
+    margin-top: 50px; /* Adjust margin as needed */
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.favdiv1 {
+    background-image: url('ex6.png'); /* Path to your image */
+    background-size: cover; /* Set background size to cover the entire container */
+    background-position: right bottom; /* Position the image to the right bottom */
+    height: 400px;
+    border: 4px solid #ccc;
+    border-radius: 5%;
+    margin-top: 50px; /* Adjust margin as needed */
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.favdiv2 {
+    background-image: url('map.png'); /* Path to your image */
+    background-size: cover; /* Set background size to cover the entire container */
+    background-position: right bottom; /* Position the image to the right bottom */
+    height: 400px;
+    border: 4px solid #ccc;
+    border-radius: 5%;
+    margin-top: 50px; /* Adjust margin as needed */
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.favdiv3 {
+    background-image: url('seal3.png'); /* Path to your image */
+    background-size: cover; /* Set background size to cover the entire container */
+    background-position: right bottom; /* Position the image to the right bottom */
+    height: 400px;
+    border: 4px solid #ccc;
+    border-radius: 5%;
+    margin-top: 50px; /* Adjust margin as needed */
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+/* CSS for Explore page */
+.explore-title {
+    padding-top: 40px; /* Adjust the top padding to create space */
+	padding-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Roboto Slab', serif; 
+    color: #000000;
+}
+.explore-content {
+    text-align: center;
+    padding: 100px;
+}
+
+.explore-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.explore-column {
+    padding: 20px;
+    border: none; /* Remove border */
+}
+
+.explore-column h3 {
+    margin-bottom: 10px;
+}
+
+.explore-column img {
+    width: 450px; /* Set width */
+    height: 300px; /* Set height */
+    margin-top: 10px;
+}
+
+/* Hotels */
+/* Custom CSS for the transparent button with black border */
+.btn-custom {
+    background-color: transparent;
+    border: 1px solid #424141; /* Black border */
+    color: #424141; /* Black text color */
+}
+
+.btn-custom:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Light black background color on hover */
+    border-color: #000000; /* Black border on hover */
+    color: #000000; /* Black text color on hover */
+}
+.explore-column {
+    position: relative; /* Set the position of the parent container to relative */
+}
+
+.explore-column .btn-custom {
+    position: absolute; /* Set the position of the button to absolute */
+    top: 100%; /* Position the button vertically at 50% from the top of its container */
+    left: 50%; /* Position the button horizontally at 50% from the left of its container */
+    transform: translate(-50%, -50%); /* Translate the button -50% along both the X and Y axes */
+    z-index: 1; /* Ensure the button is above the image */
+}
+
+
+  
